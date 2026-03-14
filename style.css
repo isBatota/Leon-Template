@@ -405,3 +405,15 @@ ul {
 .social-links a:hover {
     color: var(--primary);
 }
+
+.footer {
+    background: var(--dark);
+    color: var(--white);
+    text-align: center;
+    padding: 26px 20px;
+}
+
+.footer span {
+    color: var(--primary);
+    font-weight: 700;
+}
