@@ -130,3 +130,41 @@ ul {
   margin: 5px auto;
   transition: var(--transition);
 }
+.hero {
+  position: relative;
+  min-height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80");
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 600px;
+  padding: 20px;
+}
+
+.hero-content h1 {
+  font-size: clamp(2.8rem, 7vw, 4.5rem);
+  color: var(--primary);
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 1.15rem;
+  color: #222;
+  max-width: 420px;
+  margin: 0 auto;
+}
